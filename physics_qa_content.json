@@ -7,7 +7,7 @@
     {
         "question": "A telescope has an objective lens with a focal length of $1\\,\\mathrm{m}$ and an eyepiece with a focal length of $5\\,\\mathrm{cm}$. Find the angular magnification.",
         "chosen": "Step 1:\\\\For an astronomical telescope, angular magnification $M = \\frac{f_{\\text{objective}}}{f_{\\text{eyepiece}}}$.\\\\Step 2:\\\\Given $f_{\\text{objective}} = 100\\,\\mathrm{cm}$ and $f_{\\text{eyepiece}} = 5\\,\\mathrm{cm}$, $M = \\frac{100}{5} = 20$.\\\\Answer:\\\\The telescope’s angular magnification is $20\\times$.",
-        "rejected": "Step 1:\\\\Incorrectly invert the ratio to $M = \\frac{f_{\\text{eyepiece}}}{f_{\\text{objective}}} = \\frac{5}{100} = 0.05$.\\\\Answer:\\\\The angular magnification is calculated to be $0.05\\times$."
+        "rejected": "Step 1:\\\\Angular magnification $M = \\frac{f_{\\text{eyepiece}}}{f_{\\text{objective}}} = \\frac{5}{100} = 0.05$.\\\\Answer:\\\\The angular magnification is calculated to be $0.05\\times$."
     },
     {
         "question": "Calculate the Compton shift when an X-ray photon of $0.1\\,\\mathrm{nm}$ scatters at $90^\\circ$ from an electron.",
@@ -177,7 +177,7 @@
     {
         "question": "The work function of a metal is $2.5\\,\\mathrm{eV}$. Find the threshold frequency for the photoelectric effect.",
         "chosen": "Step 1:\\\\Use $f_0 = \\frac{\\phi}{h}$, where $\\phi = 2.5\\,\\mathrm{eV}$.\\\\Step 2:\\\\Convert $2.5\\,\\mathrm{eV}$ to joules: $2.5 \\times 1.602 \\times 10^{-19}\\,\\mathrm{J} \\approx 4.005 \\times 10^{-19}\\,\\mathrm{J}$.\\\\Step 3:\\\\Then $f_0 = \\frac{4.005 \\times 10^{-19}\\,\\mathrm{J}}{6.63 \\times 10^{-34}\\,\\mathrm{J \\cdot s}} \\approx 6.03 \\times 10^{14}\\,\\mathrm{Hz}$.\\\\Answer:\\\\Threshold frequency $\\approx 6.0 \\times 10^{14}\\,\\mathrm{Hz}$.",
-        "rejected": "Step 1:\\\\Use $f_0 = \\frac{\\phi}{h}$, but convert $2.5\\,\\mathrm{eV}$ using an incorrect factor: $2.5\\,\\mathrm{eV} = 2.5 \\times 1.602 \\times 10^{-18}\\,\\mathrm{J}$.\\\\Step 2:\\\\Then $f_0 = \\frac{4.005 \\times 10^{-18}\\,\\mathrm{J}}{6.63 \\times 10^{-34}\\,\\mathrm{J \\cdot s}} \\approx 6.03 \\times 10^{15}\\,\\mathrm{Hz}$.\\\\Answer:\\\\Threshold frequency $\\approx 6.0 \\times 10^{15}\\,\\mathrm{Hz}$."
+        "rejected": "Step 1:\\\\Use $f_0 = \\frac{\\phi}{h}$, but convert $2.5\\,\\mathrm{eV}$ using factor: $2.5\\,\\mathrm{eV} = 2.5 \\times 1.602 \\times 10^{-18}\\,\\mathrm{J}$.\\\\Step 2:\\\\Then $f_0 = \\frac{4.005 \\times 10^{-18}\\,\\mathrm{J}}{6.63 \\times 10^{-34}\\,\\mathrm{J \\cdot s}} \\approx 6.03 \\times 10^{15}\\,\\mathrm{Hz}$.\\\\Answer:\\\\Threshold frequency $\\approx 6.0 \\times 10^{15}\\,\\mathrm{Hz}$."
     },
     {
         "question": "A $500\\,\\mathrm{g}$ metal block is heated from $25^\\circ\\mathrm{C}$ to $75^\\circ\\mathrm{C}$. If its specific heat capacity is $0.9\\,\\mathrm{J/g^\\circ C}$, how much heat is absorbed?",
@@ -322,7 +322,7 @@
     {
         "question": "A particle is moving at $0.8c$. Find its Lorentz factor.",
         "chosen": "Step 1:\\\\$\\gamma = \\frac{1}{\\sqrt{1 - \\frac{v^2}{c^2}}}$. For $v = 0.8c$, $\\frac{v^2}{c^2} = 0.64$.\\\\Step 2:\\\\$\\gamma = \\frac{1}{\\sqrt{1 - 0.64}} = \\frac{1}{0.6} \\approx 1.67$.\\\\Answer:\\\\Lorentz factor $\\approx 1.67$.",
-        "rejected": "Step 1:\\\\Incorrectly calculate $\\gamma$ using $\\gamma = \\frac{1}{\\sqrt{1 - v}}$ with $v = 0.8c$.\\\\Step 2:\\\\Then $\\gamma = \\frac{1}{\\sqrt{1 - 0.8}} = \\frac{1}{\\sqrt{0.2}} \\approx 2.24$.\\\\Answer:\\\\Lorentz factor $\\approx 2.24$."
+        "rejected": "Step 1:\\\\Calculate $\\gamma$ using $\\gamma = \\frac{1}{\\sqrt{1 - v}}$ with $v = 0.8c$.\\\\Step 2:\\\\Then $\\gamma = \\frac{1}{\\sqrt{1 - 0.8}} = \\frac{1}{\\sqrt{0.2}} \\approx 2.24$.\\\\Answer:\\\\Lorentz factor $\\approx 2.24$."
     },
     {
         "question": "A charge of $4\\,\\mu\\mathrm{C}$ is moved in an electric field from a point of $10\\,\\mathrm{V}$ to $30\\,\\mathrm{V}$. Calculate the work done.",
@@ -357,12 +357,12 @@
     {
         "question": "A moving clock ticks once every $10\\,\\mathrm{s}$ in its own frame. How much time passes for an observer moving at $0.9c$?",
         "chosen": "Step 1:\\\\Proper time $\\Delta t_0 = 10\\,\\mathrm{s}$.\\\\Step 2:\\\\Time dilation: $\\Delta t = \\gamma \\Delta t_0$, with $\\gamma = \\frac{1}{\\sqrt{1 - 0.9^2}} \\approx 2.294$.\\\\Step 3:\\\\$\\Delta t \\approx 2.294 \\times 10\\,\\mathrm{s} \\approx 22.94\\,\\mathrm{s}$.\\\\Answer:\\\\About $22.94\\,\\mathrm{s}$ pass in the observer’s frame.",
-        "rejected": "Step 1:\\\\Proper time $\\Delta t_0 = 10\\,\\mathrm{s}$.\\\\Step 2:\\\\Assume $\\gamma = 3.16$ (using an incorrect calculation).\\\\Step 3:\\\\Then $\\Delta t \\approx 3.16 \\times 10\\,\\mathrm{s} \\approx 31.6\\,\\mathrm{s}$.\\\\Answer:\\\\About $31.6\\,\\mathrm{s}$ pass in the observer’s frame."
+        "rejected": "Step 1:\\\\Proper time $\\Delta t_0 = 10\\,\\mathrm{s}$.\\\\Step 2:\\\\Assume $\\gamma = 3.16$.\\\\Step 3:\\\\Then $\\Delta t \\approx 3.16 \\times 10\\,\\mathrm{s} \\approx 31.6\\,\\mathrm{s}$.\\\\Answer:\\\\About $31.6\\,\\mathrm{s}$ pass in the observer’s frame."
     },
     {
         "question": "A beam of light is incident at $30^\\circ$ on a glass surface ($n = 1.5$). Find the critical angle for total internal reflection.",
         "chosen": "Step 1:\\\\The critical angle $\\theta_c$ occurs when the refracted angle is $90^\\circ$.\\\\Step 2:\\\\Using $\\sin(\\theta_c) = \\frac{n_2}{n_1}$. With air $n_2 = 1.0$ and glass $n_1 = 1.5$: $\\sin(\\theta_c) = \\frac{1}{1.5} \\approx 0.667$.\\\\Step 3:\\\\$\\theta_c = \\sin^{-1}(0.667) \\approx 41.8^\\circ$.\\\\Answer:\\\\The critical angle is about $41.8^\\circ$.",
-        "rejected": "Step 1:\\\\Incorrectly reverse the ratio: $\\sin(\\theta_c) = \\frac{n_1}{n_2} = \\frac{1.5}{1.0} = 1.5$, which is impossible.\\\\Answer:\\\\The calculation yields an undefined value; hence, the method is flawed."
+        "rejected": "Step 1:\\\\The ratio: $\\sin(\\theta_c) = \\frac{n_1}{n_2} = \\frac{1.5}{1.0} = 1.5$, which is impossible.\\\\Answer:\\\\The calculation yields an undefined value; hence, the method is flawed."
     },
     {
         "question": "A charged capacitor ($5\\,\\mu\\mathrm{F}$, $100\\,\\mathrm{V}$) is connected to an inductor of $10\\,\\mathrm{mH}$. Find the oscillation frequency of the LC circuit.",
@@ -372,7 +372,7 @@
     {
         "question": "A prism has a refractive index of $1.52$. If light enters at an angle of $40^\\circ$, find the angle of deviation.",
         "chosen": "Step 1:\\\\The angle of deviation depends on the prism’s apex angle and the refractive index. A complete solution requires the apex angle, but for a small-angle approximation, deviation is roughly proportional to $(n - 1)$ times the apex angle.\\\\Step 2:\\\\Without a specific apex angle, a precise numerical answer cannot be given.\\\\Answer:\\\\Insufficient data; the prism's apex angle is needed to determine the exact deviation.",
-        "rejected": "Step 1:\\\\Assume an apex angle and then mistakenly add an extra $10^\\circ$ to the calculated deviation.\\\\Step 2:\\\\This yields an arbitrarily higher deviation angle.\\\\Answer:\\\\The deviation angle is incorrectly determined to be about $10^\\circ$ higher than expected."
+        "rejected": "Step 1:\\\\Assume an apex angle and then mistakenly add an extra $10^\\circ$ to the calculated deviation.\\\\Step 2:\\\\This yields an arbitrarily higher deviation angle.\\\\Answer:\\\\The deviation angle isdetermined to be about $10^\\circ$ higher than expected."
     },
     {
         "question": "State the first law of thermodynamics and give an example of its application.",
@@ -437,7 +437,7 @@
     {
         "question": "A photon has an energy of $2\\,\\mathrm{eV}$. Find its frequency.",
         "chosen": "Step 1:\\\\Convert energy: $E = 2\\,\\mathrm{eV} = 2 \\times 1.602 \\times 10^{-19}\\,\\mathrm{J} = 3.204 \\times 10^{-19}\\,\\mathrm{J}$.\\\\Step 2:\\\\Use $E = h f$, so $f = \\frac{E}{h} = \\frac{3.204 \\times 10^{-19}\\,\\mathrm{J}}{6.63 \\times 10^{-34}\\,\\mathrm{J \\cdot s}} \\approx 4.83 \\times 10^{14}\\,\\mathrm{Hz}$.\\\\Answer:\\\\Frequency $\\approx 4.83 \\times 10^{14}\\,\\mathrm{Hz}$.",
-        "rejected": "Step 1:\\\\Convert $2\\,\\mathrm{eV}$ to joules using an incorrect factor: $2\\,\\mathrm{eV} = 2 \\times 1.602 \\times 10^{-18}\\,\\mathrm{J}$.\\\\Step 2:\\\\Then $f = \\frac{3.204 \\times 10^{-18}\\,\\mathrm{J}}{6.63 \\times 10^{-34}\\,\\mathrm{J \\cdot s}} \\approx 4.83 \\times 10^{15}\\,\\mathrm{Hz}$.\\\\Answer:\\\\Frequency $\\approx 4.83 \\times 10^{15}\\,\\mathrm{Hz}$."
+        "rejected": "Step 1:\\\\Convert $2\\,\\mathrm{eV}$ to joules using factor: $2\\,\\mathrm{eV} = 2 \\times 1.602 \\times 10^{-18}\\,\\mathrm{J}$.\\\\Step 2:\\\\Then $f = \\frac{3.204 \\times 10^{-18}\\,\\mathrm{J}}{6.63 \\times 10^{-34}\\,\\mathrm{J \\cdot s}} \\approx 4.83 \\times 10^{15}\\,\\mathrm{Hz}$.\\\\Answer:\\\\Frequency $\\approx 4.83 \\times 10^{15}\\,\\mathrm{Hz}$."
     },
     {
         "question": "A person is standing on a rotating platform holding dumbbells. If they bring their arms closer to their body, how does the angular velocity change? (Explain using conservation of angular momentum)",
@@ -507,7 +507,7 @@
     {
         "question": "A laser beam undergoes total internal reflection inside a glass block ($n=1.50$). Find the minimum angle of incidence for this to occur.",
         "chosen": "Step 1:\\\\For total internal reflection, light must travel from glass ($n=1.50$) to air ($n=1.00$).\\\\Step 2:\\\\The critical angle is given by $\\sin(\\theta_c) = \\frac{n_{\\text{air}}}{n_{\\text{glass}}} = \\frac{1}{1.5} \\approx 0.667$.\\\\Step 3:\\\\$\\theta_c = \\sin^{-1}(0.667) \\approx 41.8^\\circ$.\\\\Answer:\\\\The minimum angle of incidence is about $41.8^\\circ$.",
-        "rejected": "Step 1:\\\\Assume that the mirror’s angle adds directly to the critical condition by incorrectly using the ratio $\\frac{n_{\\text{glass}}}{n_{\\text{air}}} = \\frac{1.5}{1.0} = 1.5$.\\\\Step 2:\\\\This yields an impossible sine value, resulting in an undefined angle.\\\\Answer:\\\\The calculation yields an undefined result."
+        "rejected": "Step 1:\\\\Assume that the mirror’s angle adds directly to the critical condition by using the ratio $\\frac{n_{\\text{glass}}}{n_{\\text{air}}} = \\frac{1.5}{1.0} = 1.5$.\\\\Step 2:\\\\This yields an impossible sine value, resulting in an undefined angle.\\\\Answer:\\\\The calculation yields an undefined result."
     },
     {
         "question": "A refrigerator operates at an efficiency of $35\\%$. If it extracts $500\\,\\mathrm{J}$ of heat, how much work does it require?",
@@ -557,7 +557,7 @@
     {
         "question": "A beam of light passes through a polarizer and analyzer at an angle of $60^\\circ$. If the initial intensity is $100\\,\\mathrm{W/m^2}$, find the transmitted intensity.",
         "chosen": "Step 1:\\\\Apply Malus’s law: $I = I_0 \\cos^2(\\theta)$, with $\\theta = 60^\\circ$ and $\\cos 60^\\circ = 0.5$, so $\\cos^2 60^\\circ = 0.25$.\\\\Step 2:\\\\$I = 100\\,\\mathrm{W/m^2} \\times 0.25 = 25\\,\\mathrm{W/m^2}$.\\\\Answer:\\\\The transmitted intensity is $25\\,\\mathrm{W/m^2}$.",
-        "rejected": "Step 1:\\\\Incorrectly use $\\sin^2$ instead: $I = I_0 \\sin^2(60^\\circ)$ with $\\sin 60^\\circ \\approx 0.866$, so $\\sin^2 60^\\circ \\approx 0.75$.\\\\Step 2:\\\\$I = 100\\,\\mathrm{W/m^2} \\times 0.75 = 75\\,\\mathrm{W/m^2}$.\\\\Answer:\\\\The transmitted intensity is calculated to be $75\\,\\mathrm{W/m^2}$."
+        "rejected": "Step 1:\\\\$I = I_0 \\sin^2(60^\\circ)$ with $\\sin 60^\\circ \\approx 0.866$, so $\\sin^2 60^\\circ \\approx 0.75$.\\\\Step 2:\\\\$I = 100\\,\\mathrm{W/m^2} \\times 0.75 = 75\\,\\mathrm{W/m^2}$.\\\\Answer:\\\\The transmitted intensity is calculated to be $75\\,\\mathrm{W/m^2}$."
     },
     {
         "question": "Explain why perpetual motion machines of the second kind are impossible.",
@@ -597,7 +597,7 @@
     {
         "question": "Derive the ideal gas law using the first law of thermodynamics and kinetic theory.",
         "chosen": "Step 1:\\\\From kinetic theory, $pV = NkT$, where $N$ is the number of molecules.\\\\Step 2:\\\\Relate $N$ to the number of moles $n$ using $N = n N_A$ and recognize that $k N_A = R$.\\\\Step 3:\\\\Thus, $pV = nRT$.\\\\Answer:\\\\Combining kinetic theory with the definition of moles yields the ideal gas law: $pV = nRT$.",
-        "rejected": "Step 1:\\\\Derive the relation solely from the first law without considering molecular motion, incorrectly arriving at $pV = U$.\\\\Answer:\\\\The derived equation is $pV = U$."
+        "rejected": "Step 1:\\\\Derive the relation solely from the first law without considering molecular motion, arriving at $pV = U$.\\\\Answer:\\\\The derived equation is $pV = U$."
     },
     {
         "question": "A neutron undergoes beta decay. Calculate the energy released given the mass difference between reactants and products.",
