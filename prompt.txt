@@ -1,0 +1,55 @@
+**Create content**:
+
+Generate 50 Distinct and Diverse Synthetic Data Samples
+
+File Format
+
+- JSON
+
+Content Requirements
+
+1. “question”:
+    - Any physics-related problem.
+2. “chosen”:
+    - A step-by-step solution with **correct** reasoning and calculations.
+    - Must conclude with the final answer.
+    - Format example:
+        
+        Step 1:\\\\...\\\\Step 2:\\\\...\\\\Answer:\\\\...
+        
+3. “rejected”:
+    - A step-by-step solution with **incorrect** reasoning and calculations.
+    - Must conclude with the final answer.
+    - **The solution must not include words like "incorrect" or similar terms.**
+    - Format example:
+        
+        Step 1:\\\\...\\\\Step 2:\\\\...\\\\Answer:\\\\...
+        
+
+Formatting Requirements
+
+- All **mathematical symbols** and **calculation processes** must be written in **LaTeX format**.
+- The number of steps in both "chosen" and "rejected" can vary depending on the complexity of the problem.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+**Change content to structure**:
+
+Modify the "chosen" and "rejected" fields for all questions in the attached file.
+Ignore the original content in "chosen" and "rejected"—fully replace them.
+
+File Format
+- JSON
+
+Content Requirements
+1. “chosen” field format:
+    - Must use the following tags for the response:
+    <observation></observation>\\\\<insight></insight>\\\\<think></think>\\\\<answer></answer>
+    - The content must be accurate and relevant to the question.
+2. “rejected” field format:
+    - Should use a casual, conversational tone without strict formal constraints.
+    - The response must still be correct and detailed, but expressed in a more relaxed, easy-to-read style.
+
+Formatting requirements:
+- All mathematical expressions and answers must be written in LaTeX format, enclosed within $ symbols.
+- This applies to the "question", "chosen", and "rejected" fields.
